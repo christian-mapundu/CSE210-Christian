@@ -49,9 +49,13 @@ class Program
                 {
                     Console.WriteLine("Lower");
                 }
-            else
+            else if(guessMagic < number)
                 {
                     Console.WriteLine("higher");
+                }
+            else
+                {
+                    Console.WriteLine("Congratulations");
                 }
         }
         Console.WriteLine($"The Guess {number} is correct");
