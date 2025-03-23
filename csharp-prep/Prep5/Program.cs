@@ -1,9 +1,31 @@
 using System;
+using System.IO.Compression;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep5 World!");
+
     }
+    static void DisplayMessage()
+    {
+        Console.WriteLine("Welcome to the Program");
+    }
+
+    static void PrompUserName()
+    {
+        Console.Write("Enter Your Username: ");
+        string userName = Console.ReadLine();
+    }
+
+    static int PromptUserNumber()
+    {
+        Console.Write("Enter Your Favorite Number: ");
+        int favoriteNumber = int.Parse(Console.ReadLine());
+
+        return favoriteNumber;
+    }
+    
+
 }
+
